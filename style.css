@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+
+#containerGrid{
+	display: grid;
+	grid-template-rows: 100px auto 50px;
+	min-height: 100vh;
+}
+
+.image{
+	display: block;
+	width: 100%;
+}
